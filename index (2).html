@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Social Media Dashboard</h1>
+            <button id="loginButton">Login</button>
+        </header>
+        <div id="connectedAccounts">
+            <h2>Connected Accounts</h2>
+            <button id="connectFacebook">Connect Facebook</button>
+            <button id="connectTwitter">Connect Twitter</button>
+            <button id="connectInstagram">Connect Instagram</button>
+        </div>
+        <div id="feeds">
+            <h2>Your Feeds</h2>
+            <div id="facebookFeed" class="feed-container">
+                <h3>Facebook Feed</h3>
+                <div class="feed-content" id="facebookContent">No posts available</div>
+            </div>
+            <div id="twitterFeed" class="feed-container">
+                <h3>Twitter Feed</h3>
+                <div class="feed-content" id="twitterContent">No tweets available</div>
+            </div>
+            <div id="instagramFeed" class="feed-container">
+                <h3>Instagram Feed</h3>
+                <div class="feed-content" id="instagramContent">No posts available</div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
